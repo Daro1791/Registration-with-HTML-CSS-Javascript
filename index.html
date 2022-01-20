@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration for subject</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Registration for subject</h1>
+	<form>
+		<input type="text" placeholder="Full Name" id= "name" required>
+		<input type="email" placeholder="Email" id="email" required>
+		<div>
+		<select name="select" required id="subject">
+			<option value="">Subject</option>
+			<option value="Algebra">Algebra</option>
+			<option value="Biology">Biology</option>
+			<option value="Chemistry">Chemistry</option>
+			<option value="Computer Science">Computer Science</option>
+			<option value="History">History</option>
+			<option value="Math">Math</option>
+		</select>
+		</div>
+
+		<input type="submit" name="submit" id="submit" value="Submit">
+		<div class="result"></div>
+	</form>
+<script src="code.js"></script>
+</body>
+</html>
